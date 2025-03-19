@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+
     const element = document.getElementById("element");
     const elementSize = 50; // Taille de l'élément (doit être la même que dans le CSS)
     let posX = (window.innerWidth - elementSize) / 2;
@@ -31,6 +31,5 @@ document.addEventListener("DOMContentLoaded", () => {
         
         updatePosition(newX, newY);
     });
-});
 
 
