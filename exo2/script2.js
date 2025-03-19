@@ -1,5 +1,5 @@
 const element = document.getElementById("element");
-const elementSize = 50; // Taille de l'élément (doit être la même que dans le CSS)
+const elementSize = 25; // Taille de l'élément (doit être la même que dans le CSS)
 let posX = (window.innerWidth - elementSize) / 2;
 let posY = (window.innerHeight - elementSize) / 2;
 const speed = 150; // Vitesse de déplacement
