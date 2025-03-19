@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const texte = bloc.querySelector(".texteACopier").textContent; //recupere le texte
     const confirmation = bloc.querySelector(".confirmationMessage");
 
-    bouton.addEventListener("click", () => {
+    bouton.addEventListener("click", () => { //evenement du bouton
       navigator.clipboard.writeText(texte)  //API de copie de texte + fonction pour ecrire dans le pp
         .then(() => { //message de validation (ou non)
           confirmation.textContent = "✅ Texte copié dans le presse-papier !";
